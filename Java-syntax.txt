@@ -1,0 +1,104 @@
+
+----------------------------------------------------------------
+1. project
+----------------------------------------------------------------
+
+my-bank
+    |
+    |---p1 ( .java / .class)
+    |
+    |---p2
+    |
+    |
+
+
+----------------------------------------------------------------
+2. java file
+----------------------------------------------------------------    
+
+
+Name.java
+------------------------------
+| package declaration ( one )
+| import statements ( many )
+| public Type ( class | interface | enum | annotation) Name ( one )
+| Type ( class | interface | enum | annotation) Name ( many)
+|------------------------------
+
+
+----------------------------------------------------------------
+3. package syntax
+----------------------------------------------------------------    
+
+why we need package declaration for java file ?
+
+ => to organize related java files
+
+ syntax:
+
+ package name;
+
+ recommended guidelines for package declaration:
+
+ e.g TransferTestCase.java
+
+        module => transfer
+        project => project
+        company => albilad
+        type of company => commercial
+
+e.g
+package com.albilad.project.transfer;        
+
+
+----------------------------------------------------------------
+4. import statement syntax
+----------------------------------------------------------------
+
+why we need import statement for java file?
+
+to refer any type from different packages
+
+mybank
+    |
+    | --- p1 ( A.java , B.java )
+    |   
+    |
+    | --- p2 ( C.java , D.java )
+    |
+
+
+e.g
+    
+    package p1;
+    import p2.C;
+
+    public class A{
+        C c;
+    }
+
+----------------------------------------------------------------
+3. Data Type(s)
+----------------------------------------------------------------       
+
+2 types data types
+
+    1. values / primitives e.g amount
+    2. objects / reference e.g account
+
+---------------------------------------------------------------
+3.1. Value Type(s)
+----------------------------------------------------------------       
+
+java has 8 value types
+
+
+whole-number values
+
+    1. byte ( 8 )
+    2. short ( 16 )
+    3. int ( 32 )
+    4. long ( 64 )
+
+
+    

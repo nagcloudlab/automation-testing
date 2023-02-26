@@ -1,0 +1,29 @@
+
+---------------------------------------------
+
+Software Build
+
+    - compile
+    - test
+    - package
+    - deploy
+
+Build tools for java language
+
+    - Maven 
+    - Gradle
+
+---------------------------------------------
+
+How to learn any programing language ? e.g Java 
+
+- data types
+- operators
+- conditional statements
+- looping statements
+- data structures eg array
+- Object Oriented Programming
+- Functitional Programming
+
+---------------------------------------------
+
