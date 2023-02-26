@@ -92,13 +92,118 @@ e.g
 
 java has 8 value types
 
+    whole-number values
 
-whole-number values
+        1. byte ( 8 )
+        2. short ( 16 )
+        3. int ( 32 )
+        4. long ( 64 )
 
-    1. byte ( 8 )
-    2. short ( 16 )
-    3. int ( 32 )
-    4. long ( 64 )
+    real/decimal-number values
+
+        5. float ( 32 )
+        6. double ( 64 )
+
+    character
+
+        7. char ( 16 )
+
+    boolean
+
+        8. boolean ( 1 )
 
 
-    
+---------------------------------------------------------------
+3.2. Object
+----------------------------------------------------------------       
+
+what is an object ?
+    - info / data / properties / attributes => State
+    - function / method / operation / work  => Behavior
+    - reference / address / location => Identity
+
+how to create an object ?
+    to create similar objects, we need obj's template a.k.a class
+
+what is class ?
+    => blue-print/definition/design of an object
+
+---------------------------------------------------------------
+Object Concepts
+---------------------------------------------------------------
+
+1. Abstraction
+        => obj's easy use/learn by dependent object
+2. Encapulation
+        => Hide obj's imlementation
+3. Inheritance
+        => re-use State/Behavior from generalized-type to specilized-type
+4. Polymorphism ( many forms )
+        => obj' shud have/change behav, based on input/envi 
+
+---------------------------------------------------------------
+4. Class syntax
+----------------------------------------------------------------
+
+class TestEmployee {
+   // State definition ( variables )
+   // Constructor
+   // Behavior         ( methods )
+}
+
+
+---------------------------------------------------------------
+5. Variable syntax
+----------------------------------------------------------------
+
+
+
+ ________ Type varName = [value / obj's reference]
+ [static]   
+ [final ]
+
+
+
+---------------------------------------------------------------
+6. Constructor syntax
+---------------------------------------------------------------
+
+how to create object in java ?
+
+    2 steps
+
+    step-1 : memory allocation at runtime => new 
+    step-2 : intialize that memory with obj's data => constructor
+
+   
+    syntax:
+
+    ClassName([input]){
+        // intialization logic
+    }
+
+     ClassName e1=new ClassName() ==> object 
+
+
+
+---------------------------------------------------------------
+7. Method syntax
+---------------------------------------------------------------
+
+   ________ ReturnType methodName([input]){ 
+   [static]
+                // operators 
+                // conditional statements
+                // loops
+                // invoke other methods
+
+                result => Value / Object
+
+            }
+
+    ReturnType
+        - void
+        - value
+        - obj's type
+
+---------------------------------------------------------------
