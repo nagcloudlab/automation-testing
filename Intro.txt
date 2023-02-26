@@ -19,6 +19,10 @@ How to learn any programing language ? e.g Java
 
 - data types
 - operators
+    -> Arith => +,-
+    -> Relational => ==, !=, <,>
+    -> Logical => &&, || , !
+    ....
 - conditional statements
 - looping statements
 - data structures eg array

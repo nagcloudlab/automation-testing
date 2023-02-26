@@ -1,4 +1,6 @@
 
+http://github.com/nagcloudlab/automation-testing
+
 ----------------------------------------------------------------
 1. project
 ----------------------------------------------------------------
@@ -207,3 +209,14 @@ how to create object in java ?
         - obj's type
 
 ---------------------------------------------------------------
+java lang naming conventions
+
+keywords ==> lower-case
+package names ==> lower-case
+type names => pascal-case e.g A____B___C___ e.g TestingEmploee
+var / methods => camel-case e.g ____A___B____ e.g myName
+
+const variables ==> Upper-case e.g COUNTRY
+
+---------------------------------------------------------------
+
