@@ -7,7 +7,6 @@ services:
     depends_on:
       mysql:
         condition: service_healthy
-
   bank-web-ui:
     build: bank-web-ui/bank-web-ui
     
