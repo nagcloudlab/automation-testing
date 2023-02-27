@@ -1,2 +1,10 @@
-package org.example.web;public class HttpErrorInfo {
+package org.example.web;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+public class HttpErrorInfo {
+    private String message;
 }

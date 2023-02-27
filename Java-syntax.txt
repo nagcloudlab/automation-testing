@@ -198,9 +198,7 @@ how to create object in java ?
                 // conditional statements
                 // loops
                 // invoke other methods
-
                 result => Value / Object
-
             }
 
     ReturnType

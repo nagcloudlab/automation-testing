@@ -1,2 +1,10 @@
-package org.example.dto;public class TransferResponse {
+package org.example.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+public class TransferResponse {
+    private String message;
 }

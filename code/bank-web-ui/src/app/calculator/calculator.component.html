@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header bg-info">caclulator</div>
+            <div class="card-body">
+                <form (submit)="handleSubmit($event)">
+                    <div class="form-group">
+                        <label>Number-1</label>
+                        <input type="text" class="form-control" [(ngModel)]="number1" name="number1" />
+                    </div>
+                    <div class="form-group">
+                        <label>Operator</label>
+                        <select class="form-control" [(ngModel)]="operator" name="operator">
+                            <option *ngFor="let op of ['+','-','*','/']">{{op}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Number-2</label>
+                        <input type="text" class="form-control" [(ngModel)]="number2" name="number2" />
+                    </div>
+                    <br />
+                    <button class="btn btn-dark">Sumbit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-2"></div>
+    <div class="col-4">
+        Result:
+        <div class="display-3">{{result}}</div>
+    </div>
+</div>
