@@ -1,7 +1,8 @@
 package com.example;
 
-public class ConditionalStatements {
+public class Conditional {
     public static void main(String[] args) {
+
         /*
             1. if,else
             2. switch-case

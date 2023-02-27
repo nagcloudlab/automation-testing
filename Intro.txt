@@ -25,7 +25,7 @@ How to learn any programing language ? e.g Java
     ....
 - conditional statements
 - looping statements
-- data structures eg array
+- data structures e.g array
 - Object Oriented Programming
 - Functitional Programming
 
