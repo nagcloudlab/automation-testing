@@ -1,0 +1,68 @@
+
+
+Appln: bank-transfer-service
+
+
+steps to design REST api:
+----------------------------------------------------------------
+
+step-1 : indentify resource(s)/action(s)
+
+
+        /api/v1/accounts
+        /api/v1/accounts/{number}
+
+        /api/v1/customers
+        /api/v1/customers/{number}
+
+        /api/v1/customers/{number}/accounts
+        /api/v1/customers/{number}/accounts/{number}
+
+        /api/v1/transfer
+
+step-2 : resource manipulation through representations
+
+         XML , JSON, csv, pdf , xls
+
+
+        HTTP-methods
+        --------------
+
+        read:
+
+        - GET => server should return resource payload
+        - HEAD => server should return resource details ( exist, last modified)
+
+        write:
+
+        - POST => server should create resource 
+        - PUT => server should update resource
+        - PATCH => server should update resource partially
+        - DELETE => server should delete resource
+        - OPTIONS => server should return permissions details about resource
+
+
+        HTTP-status-codes
+        ------------------
+
+        Informational responses (100 – 199)
+        Successful responses (200 – 299)
+        Redirection messages (300 – 399)
+        Client error responses (400 – 499)
+        Server error responses (500 – 599)
+
+
+        ------------------------------------------------
+
+
+
+
+
+        
+
+
+
+
+
+
+

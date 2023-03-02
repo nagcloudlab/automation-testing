@@ -1,4 +1,4 @@
-package com.example.google;
+package com.example.google.search;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
